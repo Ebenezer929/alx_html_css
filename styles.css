@@ -1,0 +1,22 @@
+h1 {
+    color: blue;
+
+}
+body {
+    display: flex;
+    flex-direction: column; /* Stack header, main, and footer vertically */
+}
+main {
+    display: flex;
+    flex-direction: row; /* Arrange article and aside horizontally */
+    flex: auto; /* Allow it to grow naturally */
+}
+article {
+    flex: 2; /* Takes up twice the space */
+    overflow-y: auto; /* Allows vertical scrolling */
+}
+
+aside {
+    flex: 1; /* Takes up half the space of article */
+    overflow-y: auto; /* Allows vertical scrolling */
+}
