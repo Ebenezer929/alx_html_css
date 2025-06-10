@@ -1,8 +1,12 @@
 h1 {
     color: blue;
+    body {
+
+}
 
 }
 body {
+   
     display: flex;
     flex-direction: column; /* Stack header, main, and footer vertically */
 }
@@ -19,4 +23,18 @@ article {
 aside {
     flex: 1; /* Takes up half the space of article */
     overflow-y: auto; /* Allows vertical scrolling */
+}
+body {
+    background-image: url('https://images.pexels.com/photos/399161/pexels-photo-399161.jpeg?cs=srgb&dl=pexels-lum3n-44775-399161.jpg&fm=jpg'); /* Replace with your actual image URL */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+body {
+    color: brown; /* Dark gray text */
+}
+.logo {
+    font-size: 32px; /* Makes the logo bigger */
+    font-weight: bold; /* Makes it stand out */
+    padding-right: 15px; /* Adds space between the logo and other items */
 }
