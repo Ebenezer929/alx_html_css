@@ -15,24 +15,30 @@ main > section:first-of-type { /* continuation to make the textz white */
   background-size: cover;
   background-position: center;
   color: white;
-  padding: 10px 30px;
+  padding: 60px 30px;
    min-height: 100vh;
 }
- .logo {               /* Adjusting logo */
-  width: 120px;
+ .logo {           /* Adjusting logo */
+  width: 150px;
   height: 60px;
   object-fit: contain; /* This keeps it from stretching weirdly */
+  fill: white;
+  background-color: black;
 }
+
+
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 30px;
+  background: black;
+  color: white;
 }
 
 nav img {
-  height: 10px; /* Adjust ggrin, pricing and course*/
+  height: 10px;; /* Adjust login, pricing and course*/
 }
 
 nav ul {
@@ -50,13 +56,14 @@ nav ul li a {
   text-decoration:none;
   font-weight: small;}
 
-.hero-content {
+
+  .hero-content {
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 60px 20px 60px;
+  padding: 30px 20px 60px;
 }
 
 .hero-content h1 {
@@ -97,5 +104,53 @@ nav ul li a {
   display: flex;
   justify-content: space-around; /* or space-between / center */
   flex-wrap: wrap; /* allows responsiveness on smaller screens */
-  gap: 2rem; /* spacing between items */
+  gap: 0.3rem; /* spacing between items */
+  margin-top: -15px
+
 }
+.pro {
+  text-align: center;
+  max-width: 120px;
+}
+.pro img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+  h2 {   /* working on Learn from thre pros*/
+  text-align: center;
+}
+.violet {
+  color: violet; /* changing the color of lear  */
+}
+.pros-section {
+  margin-top: -40px; /* Adjusting it to the top*/
+}
+
+.testimonial {
+  background-color: #bd3bb6; /* Maintain violet background */
+  width: 100%;
+  max-width: none; /* Remove any prior constraints */
+  margin: 0; /* Reset horizontal margins */
+  padding: 60px 30px;
+  color: white;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 2rem;
+  padding-left: 30px; /* match your hero padding */
+  padding-right: 30px;
+ margin-top: -24px; /* or reduce padding-top if that's safer */
+
+
+
+
+}
+
+
+
+
