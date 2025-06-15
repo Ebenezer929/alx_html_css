@@ -1,0 +1,101 @@
+main > section:first-of-type::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+main > section:first-of-type  > * {
+  position: relative;
+  z-index: 1;
+}
+main > section:first-of-type { /* continuation to make the textz white */
+  background-image: url('./images/hero-bg.jpg'); /* Replace with your image */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 10px 30px;
+   min-height: 100vh;
+}
+ .logo {               /* Adjusting logo */
+  width: 120px;
+  height: 60px;
+  object-fit: contain; /* This keeps it from stretching weirdly */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+nav img {
+  height: 10px; /* Adjust ggrin, pricing and course*/
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+
+nav ul li a {
+  text-decoration:none;
+  font-weight: small;}
+
+.hero-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px 60px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.tagline {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 5px;
+}
+
+.tagline span {
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.hero-content button {
+  background-color: #bd3bb6;
+   margin-top: 30px;
+  border: none;
+  padding:10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.pro-container {
+  display: flex;
+  justify-content: space-around; /* or space-between / center */
+  flex-wrap: wrap; /* allows responsiveness on smaller screens */
+  gap: 2rem; /* spacing between items */
+}
