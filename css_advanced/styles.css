@@ -15,7 +15,7 @@ main > section:first-of-type { /* continuation to make the textz white */
   background-size: cover;
   background-position: center;
   color: white;
-  padding: 60px 30px;
+  padding: 50px 30px;
    min-height: 100vh;
 }
  .logo {           /* Adjusting logo */
@@ -129,28 +129,6 @@ nav ul li a {
 .pros-section {
   margin-top: -40px; /* Adjusting it to the top*/
 }
-
-.testimonial {
-  background-color: #bd3bb6; /* Maintain violet background */
-  width: 100%;
-  max-width: none; /* Remove any prior constraints */
-  margin: 0; /* Reset horizontal margins */
-  padding: 60px 30px;
-  color: white;
-
-  display: flex;
-  flex-wrap: wrap;
-
-  gap: 2rem;
-  padding-left: 30px; /* match your hero padding */
-  padding-right: 30px;
- margin-top: -24px; /* or reduce padding-top if that's safer */
-
-
-
-
-}
-
 
 
 
