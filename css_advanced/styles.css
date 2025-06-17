@@ -15,7 +15,7 @@ main > section:first-of-type { /* continuation to make the textz white */
   background-size: cover;
   background-position: center;
   color: white;
-  padding: 50px 30px;
+  padding: 28px 30px;
    min-height: 100vh;
 }
  .logo {           /* Adjusting logo */
@@ -130,5 +130,40 @@ nav ul li a {
   margin-top: -40px; /* Adjusting it to the top*/
 }
 
+.testimonial {
+  background-color: #bd3bb6;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem; /* Base gap between image and text */
+  color: white;
+   width: calc(100% + 60px); /* Extends width to compensate for shift */
+  margin-left: -15px;
+  width: 106%;
+  height: 250px;
+  transform: translateX(-1.7%); /* Center-align */
+  
+  
+}
 
+  /* Target the text container (second div) */
+.testimonial > div:last-child {
+  margin-right: 90;
+  flex: 1; /* Allow text to take remaining space */ 
+   align-items: center; /* Centers image vertically */
+   padding: 60px 30px; /* Reduced right padding */
+  transform: translateX(0%);
 
+}
+  h3, p {
+  margin: 0.5rem 0; /* Add vertical spacing */
+  margin-left: 30px; 
+  }
+  p {
+    font: italic;
+  }
+  /* hift image to the right*/
+.testimonial-image {
+  margin-left: 200px;  
+   transform: translateY(25%);
+  
+  }
